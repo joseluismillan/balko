@@ -91,3 +91,21 @@ NotFoundException: BackendEnvironment dev does not exist.
 2020-12-20T16:56:13.767Z|info : amplify-provider-awscloudformation.aws-s3.s3.getFile([{"Key":"[***]rent-[***]ud-[***]d.zip","Bucket":"[***]ify-[***]board-[***]ev-[***]01-[***]ment"}])
 2020-12-20T16:56:15.198Z|info : amplify-provider-awscloudformation.initialize-env.run.cfn.updateamplifyMetaFileWithStackOutputs([{"StackName":"[***]ify-[***]board-[***]ev-[***]01"}])
 2020-12-20T16:56:16.947Z|info : amplify-provider-awscloudformation.aws-s3.s3.getFile([{"Key":"[***]ify-[***]json","Bucket":"[***]ify-[***]board-[***]ev-[***]01-[***]ment"}])
+2020-12-20T19:01:04.911Z|info : amplify status core  
+2020-12-20T19:01:24.570Z|info : amplify push core  
+2020-12-20T19:01:32.189Z|info : amplify-provider-awscloudformation.zip-util.downloadZip.s3.getFile([{"Key":"[***]rent-[***]ud-[***]d.zip"},null])
+2020-12-20T19:01:32.194Z|info : amplify-provider-awscloudformation.aws-s3.s3.getFile([{"Key":"[***]rent-[***]ud-[***]d.zip","Bucket":"[***]ify-[***]board-[***]ev-[***]01-[***]ment"}])
+2020-12-20T19:01:33.468Z|info : amplify-provider-awscloudformation.initialize-env.run.cfn.updateamplifyMetaFileWithStackOutputs([{"StackName":"[***]ify-[***]board-[***]ev-[***]01"}])
+2020-12-20T19:01:35.140Z|info : amplify-provider-awscloudformation.aws-s3.s3.getFile([{"Key":"[***]ify-[***]json","Bucket":"[***]ify-[***]board-[***]ev-[***]01-[***]ment"}])
+2020-12-20T19:56:16.973Z|info : amplify status core  
+2020-12-20T19:58:11.114Z|info : amplify push core  
+2020-12-20T19:58:19.127Z|info : amplify-provider-awscloudformation.zip-util.downloadZip.s3.getFile([{"Key":"[***]rent-[***]ud-[***]d.zip"},null])
+2020-12-20T19:58:19.132Z|info : amplify-provider-awscloudformation.aws-s3.s3.getFile([{"Key":"[***]rent-[***]ud-[***]d.zip","Bucket":"[***]ify-[***]board-[***]ev-[***]01-[***]ment"}])
+2020-12-20T19:58:20.204Z|info : amplify-provider-awscloudformation.initialize-env.run.cfn.updateamplifyMetaFileWithStackOutputs([{"StackName":"[***]ify-[***]board-[***]ev-[***]01"}])
+2020-12-20T19:58:21.770Z|info : amplify-provider-awscloudformation.aws-s3.s3.getFile([{"Key":"[***]ify-[***]json","Bucket":"[***]ify-[***]board-[***]ev-[***]01-[***]ment"}])
+2020-12-20T20:26:01.403Z|info : amplify status core  
+2020-12-20T20:26:27.132Z|info : amplify push core  
+2020-12-20T20:26:38.188Z|info : amplify-provider-awscloudformation.zip-util.downloadZip.s3.getFile([{"Key":"[***]rent-[***]ud-[***]d.zip"},null])
+2020-12-20T20:26:38.194Z|info : amplify-provider-awscloudformation.aws-s3.s3.getFile([{"Key":"[***]rent-[***]ud-[***]d.zip","Bucket":"[***]ify-[***]board-[***]ev-[***]01-[***]ment"}])
+2020-12-20T20:26:39.437Z|info : amplify-provider-awscloudformation.initialize-env.run.cfn.updateamplifyMetaFileWithStackOutputs([{"StackName":"[***]ify-[***]board-[***]ev-[***]01"}])
+2020-12-20T20:26:40.952Z|info : amplify-provider-awscloudformation.aws-s3.s3.getFile([{"Key":"[***]ify-[***]json","Bucket":"[***]ify-[***]board-[***]ev-[***]01-[***]ment"}])
