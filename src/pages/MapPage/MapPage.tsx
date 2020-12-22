@@ -84,13 +84,13 @@ const MapPage: React.FC = () => {
   }, []);
 
   //subscribe to changes in sensor values
-  useEffect(() => {
+  useEffect( () => {
 
     if (readyToSubscribe){
 
       console.log('start subscription to sensors');
-      
-      const subscriber = API.graphql(graphqlOperation(onCreateSensorValues)).subscribe({
+      // @ts-ignore
+      const subscriber =  API.graphql(graphqlOperation(onCreateSensorValues)).subscribe({
         next: (response: ISensorsSubscriptionResponse) => {
 
           //update the sensor's status in state

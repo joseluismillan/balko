@@ -37,7 +37,7 @@ interface ISensorSubscriptionResponse {
 const SensorPage: React.FC = () => {
   
   const classes = useStyles();
-  const { id } = useParams();
+  const { id } = useParams<{ id: string }>();
 
   const [name, setName] = useState("Fetching sensor data...");
   const [pH, setPH] = useState<number | null>(null);
@@ -80,7 +80,7 @@ const SensorPage: React.FC = () => {
     if (readyToSubscribe){
     
       console.log('start subscription to sensor');
-
+      // @ts-ignore
       const subscriber = API.graphql(graphqlOperation(onCreateSensorValue, {sensorId: id})).subscribe({
         next: (response: ISensorSubscriptionResponse) => {
   
